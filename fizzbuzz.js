@@ -99,8 +99,8 @@ console.assert(LCM(0,1) === 1)
 
 function fizzbuzz(N){
     // YOUR CODE HERE
+    var conc = ""
     for (var i=1; i<=N; i++) {	
-    	var conc = ""
     	if (i % 3 === 0) {
     		if (i % 5 === 0) {
     			conc += "fizzbuzz"
@@ -111,7 +111,7 @@ function fizzbuzz(N){
     		if (i % 5 === 0){
     			conc += "buzz"
     		} else {
-    			conc += "."
+                conc += "."
     		}
     	}
     }
